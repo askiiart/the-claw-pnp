@@ -17,3 +17,17 @@ As for the gantry plate, found dimensions for that, from which I made a quick sk
 ![gantry plate dimensions](https://www.makerstore.com.au/wp-content/uploads/2015/01/20mm-v-slot-gantry-plate.webp)
 
 ![holes in inventor](https://cdn.hackclub.com/019d173e-2b3d-7671-a4f7-03543445eaaa/image.png)
+
+## 2026-03-22B - nozzle selection
+
+*0.5 hours*
+
+I found [this](https://groups.google.com/g/openpnp/c/s_PBSA7VQWM) usenet post, seems you can use all kinds of stuff as nozzles actually, including needles (for extruding glue and stuff). Since actual nozzles are expensive, I'll use those
+
+## 2026-03-23 - camera selection and looked into motors more
+
+*1 hour*
+
+Spent some time trying to find which camera to use. Seems the best option is a pi camera-like module (65mm, autofocus, OV5647), so added that to the parts list. And given it's basically the same dimensions of a pi camera 2, I can design around that.
+
+I also looked into motor selection more, turns out that motor I had previously selected is way too low voltage, I wouldn't be able to add a spring, and it's also more difficult to attach stuff to it given it's a smooth shaft. Instead, I'm going for a design similar to xpdiy's with a standard NEMA 17 motor, albeit with silicone to hold the nozzle for better fit, easier printing, and ease of design.
