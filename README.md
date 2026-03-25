@@ -1,5 +1,7 @@
 # The Claw - pick-and-place head
 
+![image](/assets/pnp-head.webp)
+
 ## Parts
 
 - vacuum: 370 vacuum (or 540/555 if being overkill) - 5/12/24V
