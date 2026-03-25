@@ -6,7 +6,22 @@ A relatively cheap way to do manual pick and place by converting a 3D printer.
 
 ## Control/software
 
-This just uses whatever Pi camera streaming software you want, plus Octoprint/serial to control it, like any printer. No special firmware is generally required (depending on your specific wiring).
+This just uses whatever Pi camera streaming software you want, plus Octoprint/serial to control it, like any printer. No special firmware is generally required (depending on your specific wiring). Octopi works great for this, as it provides both a camera view and serial/controls.
+
+## Assembly
+
+Just print all the parts, then assemble it all together - it should be pretty self-explanatory, given the assembly image.
+
+- The stepper motor controls the rotation of the components, and is screwed in from the top
+- The solenoid controls vacuum on/off, that's not included on the head as it's extra weight as well as being hard to mount - put it near the air pump.
+- There is a spring resting between the lower shaft and the roof, which is used to keep the component pressed down while allowing it to press into the bed without breaking anything..
+- The nozzle is mounted using a silicone connector which has the lower shaft tip on one size and the nozzle on the other to ensure proper fit.
+
+The silicone is used to make nozzles fit properly - creating the mold is left as an exercise to the reader, as nozzle dimensions aren't available, hence the components are required to create the silicone mold.
+
+## Wiring
+
+Your wiring can vary significantly, but the only control besides just basic movement is turning the solenoid on/off. If your fan headers can provide enough current, that will be the easiest way to control it.
 
 ## Parts
 
