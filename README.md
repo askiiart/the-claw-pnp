@@ -4,6 +4,10 @@ A relatively cheap way to do manual pick and place by converting a 3D printer.
 
 ![image](/assets/pnp-head.webp)
 
+## Control/software
+
+This just uses whatever Pi camera streaming software you want, plus Octoprint/serial to control it, like any printer. No special firmware is generally required (depending on your specific wiring).
+
 ## Parts
 
 | Item name               | Price | Quantity | Link                                                                                      | Total    |
