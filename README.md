@@ -1,16 +1,23 @@
 # The Claw - pick-and-place head
 
+A relatively cheap way to do manual pick and place by converting a 3D printer.
+
 ![image](/assets/pnp-head.webp)
 
 ## Parts
 
-- vacuum: 370 vacuum (or 540/555 if being overkill) - 5/12/24V
-- 6x8 tubing
-- [spring](https://www.aliexpress.us/item/3256808172121056.html) - to make the head a bit flexible so there's no problem if you go too low and hit the pcb/components
-  - optional
-- [solenoid](https://www.aliexpress.us/item/3256808138923197.html)
-- [motor](https://www.aliexpress.us/item/3256808273084374.html)
-- [silicone mold making kit](https://www.amazon.com/BBDINO-Elastic-Silicone-Making-Casting/dp/B0DK9GD52Q)
-  - for better nozzle mounting and ease of design/printing
-- [nozzles](https://www.amazon.com/Dispensing-Industrial-Dispenser-Stainless-Adhesive/dp/B09CL4RB5X)
-- [camera](https://www.aliexpress.us/item/3256803200476731.html) (AF-65 degrees)
+| Item name               | Price | Quantity | Link                                                                                      | Total    |
+| ----------------------- | ----- | -------- | ----------------------------------------------------------------------------------------- | -------- |
+| NEMA 17 motor (XH)      | 7.06  | 1        | <https://www.aliexpress.us/item/3256808273084374.html>                                    | 7.06     |
+| Spring (45x13)          | 3.17  | 1        | <https://www.aliexpress.us/item/3256808172121056.html>                                    | 3.17     |
+| 6x8 5m tubing           | 5.46  | 1        | <https://www.aliexpress.us/item/3256809523563550.html>                                    | 5.46     |
+| 24V Air pump            | 11.4  | 1        | <https://www.aliexpress.us/item/3256807520990953.html>                                    | 11.4     |
+| Silicone                | 25.62 | 1        | <https://www.amazon.com/BBDINO-Elastic-Silicone-Making-Casting/dp/B0DK9GD52Q>             | 25.62    |
+| AF-65 camera            | 4.65  | 1        | <https://www.aliexpress.us/item/3256803200476731.html>                                    | 4.65     |
+| Solenoid                | 5.88  | 1        | <https://www.aliexpress.us/item/3256807858795768.html>                                    | 5.88     |
+| 8x12x3.5mm bearing      | 2.51  | 1        | <https://www.aliexpress.us/item/3256807442294068.html>                                    | 2.51     |
+| Blunt needles (nozzles) | 7.99  | 1        | <https://www.amazon.com/Dispensing-Industrial-Dispenser-Stainless-Adhesive/dp/B09CL4RB5X> | 7.99     |
+|                         |       |          |                                                                                           |          |
+|                         |       |          |                                                                                           |          |
+|                         |       |          |                                                                                           |          |
+| Total                   |       |          |                                                                                           | 79.82355 |
