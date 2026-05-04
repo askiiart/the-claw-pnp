@@ -2,7 +2,7 @@
 
 A relatively cheap way to do manual pick and place by converting a 3D printer.
 
-![image](/assets/pnp-head.webp)
+![image](/assets/pnp-head.png)
 
 ## Control/software
 
