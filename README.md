@@ -10,14 +10,22 @@ This just uses whatever Pi camera streaming software you want, plus Octoprint/se
 
 ## Assembly
 
-Just print all the parts, then assemble it all together - it should be pretty self-explanatory, given the assembly image.
+Just print all the parts, then assemble it all together. **Important**: Make sure you install the head on the printer before assembly, as the stepper motor blocks the screws.
 
-- The stepper motor controls the rotation of the components, and is screwed in from the top
-- The solenoid controls vacuum on/off, that's not included on the head as it's extra weight as well as being hard to mount - put it near the air pump.
-- There is a spring resting between the lower shaft and the roof, which is used to keep the component pressed down while allowing it to press into the bed without breaking anything..
-- The nozzle is mounted using a silicone connector which has the lower shaft tip on one size and the nozzle on the other to ensure proper fit.
+Note: The solenoid controls vacuum on/off, that's not included on the head as it's extra weight as well as being hard to mount - put it near the air pump.
 
-The silicone is used to make nozzles fit properly - creating the mold is left as an exercise to the reader, as nozzle dimensions aren't available, hence the components are required to create the silicone mold.
+## Head assembly
+
+- Screw in the stepper motor from the top
+- Install the lower shaft (green) by just setting it in the bottom
+
+![](/assets/assembly-1.png)
+
+- There is a spring resting between the lower shaft and the roof (not shown in image). Install the upper shaft into the hole, connecting to the lower shaft, then install the small gear onto the stepper motor.
+
+![](/assets/assembly-2.png)
+
+The nozzle is mounted using a silicone connector which has the lower shaft tip (juki nozzle connector) on one side, and the nozzle on the other to ensure proper fit. The silicone is used to make nozzles fit snugly - creating the mold is left as an exercise to the reader, as molding off a real nozzle will give the best results.
 
 ## Wiring
 
@@ -40,3 +48,7 @@ Your wiring can vary significantly, but the only control besides just basic move
 |                         |       |          |                                                                                           |          |
 |                         |       |          |                                                                                           |          |
 | Total                   |       |          |                                                                                           | 79.82355 |
+
+---
+
+Note: if trying to create an exploded view for assembly instructions, you want "Mate:9" - set it to e.g. 25mm.
